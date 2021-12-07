@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace RefactorResponsabilidadUnicaEmpleado
-{
+{  //Ahora empleado si solo tiene responsabilidad con cosas que le competen
     class CEmpleado
     {
         private string nombre;

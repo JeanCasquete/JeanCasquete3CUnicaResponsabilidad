@@ -34,9 +34,10 @@ namespace ResponsabilidadUnicaEmpleados
         //- AsignarHorario
         //- ProyectoActual
 
-        //Colocamos algo que no es responsabilidad del empleado
+        //Aqui podemos ver metodos que no es responsabilidad del empleado
         //Tenemos dos razones para cambiar la clase
-        //cuando cambia algo de empleado y cambia algo relacionado con los impuestos
+        //cuando cambia algo de empleado y cambia algo relacionado con los impuestos esta ultima no tiene
+        //nada que ver con los empleados
         public double CalcularImpuesto()
         {
             return sueldo * 0.35;
