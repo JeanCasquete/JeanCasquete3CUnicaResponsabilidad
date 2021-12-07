@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsabilidadUnicaEmpleados", "ResponsabilidadUnicaEmpleados\ResponsabilidadUnicaEmpleados.csproj", "{BBE5A1A5-F101-4129-B279-9360652FAC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorResponsabilidadUnicaEmpleado", "RefactorResponsabilidadUnicaEmpleado\RefactorResponsabilidadUnicaEmpleado.csproj", "{1EF6A98F-7D3D-47F1-A208-6F8DA763C41E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBE5A1A5-F101-4129-B279-9360652FAC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE5A1A5-F101-4129-B279-9360652FAC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE5A1A5-F101-4129-B279-9360652FAC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE5A1A5-F101-4129-B279-9360652FAC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF6A98F-7D3D-47F1-A208-6F8DA763C41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF6A98F-7D3D-47F1-A208-6F8DA763C41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF6A98F-7D3D-47F1-A208-6F8DA763C41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF6A98F-7D3D-47F1-A208-6F8DA763C41E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8270F84A-971A-41C1-8B38-4872D5EC4263}
+	EndGlobalSection
+EndGlobal

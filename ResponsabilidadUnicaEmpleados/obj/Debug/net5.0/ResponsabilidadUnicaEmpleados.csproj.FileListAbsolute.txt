@@ -1,0 +1,16 @@
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\bin\Debug\net5.0\ResponsabilidadUnicaEmpleados.exe
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\bin\Debug\net5.0\ResponsabilidadUnicaEmpleados.deps.json
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\bin\Debug\net5.0\ResponsabilidadUnicaEmpleados.runtimeconfig.json
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\bin\Debug\net5.0\ResponsabilidadUnicaEmpleados.runtimeconfig.dev.json
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\bin\Debug\net5.0\ResponsabilidadUnicaEmpleados.dll
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\bin\Debug\net5.0\ref\ResponsabilidadUnicaEmpleados.dll
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\bin\Debug\net5.0\ResponsabilidadUnicaEmpleados.pdb
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\obj\Debug\net5.0\ResponsabilidadUnicaEmpleados.csproj.AssemblyReference.cache
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\obj\Debug\net5.0\ResponsabilidadUnicaEmpleados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\obj\Debug\net5.0\ResponsabilidadUnicaEmpleados.AssemblyInfoInputs.cache
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\obj\Debug\net5.0\ResponsabilidadUnicaEmpleados.AssemblyInfo.cs
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\obj\Debug\net5.0\ResponsabilidadUnicaEmpleados.csproj.CoreCompileInputs.cache
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\obj\Debug\net5.0\ResponsabilidadUnicaEmpleados.dll
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\obj\Debug\net5.0\ref\ResponsabilidadUnicaEmpleados.dll
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\obj\Debug\net5.0\ResponsabilidadUnicaEmpleados.pdb
+C:\Users\YinRo\source\repos\ResponsabildadUnica3CCasqueteJean\ResponsabilidadUnicaEmpleados\obj\Debug\net5.0\ResponsabilidadUnicaEmpleados.genruntimeconfig.cache
