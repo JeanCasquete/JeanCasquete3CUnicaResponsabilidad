@@ -6,47 +6,157 @@ using System.Threading.Tasks;
 
 namespace ResponsabilidadUnicaEmpleados
 {
-    class CEmpleadito
-
+    class Program
     {
-        private string nombre;
-        private string puesto;
-        private int edad;
-        private double sueldo;
-
-        public CEmpleadito(string pNombre, string pPuesto, int pEdad, double pSueldo)
+        static void Main(string[] args)
         {
-            nombre = pNombre;
-            puesto = pPuesto;
-            edad = pEdad;
-            sueldo = pSueldo;
+            Registro user1 = new Registro();
+            Login login1 = new Login();
+            Articulo articulo1 = new Articulo();
+            Articulo articulo2 = new Articulo();
+            //Declaración de variables por utilizar.
+            double neg1;
+            int opcion, opcion1;
+            opcion = 0;
+            neg1=0;
+            //Mediante un do while procesamos el ingreso a la aplicación.
+            do
+            {
+                //Pequeño menú inicial donde elegir registrarse si el usuario es nuevo o iniciar sesion si ya tiene cuenta.
+                Console.WriteLine("BIENVENIDO A Law Art Shop :");
+                Console.WriteLine("  1. Registrarse");
+                Console.WriteLine("  2. Iniciar Sesión");
+                Console.WriteLine("Ingresa 1 para registrarte, o 2 para iniciar sesion");
+                opcion = int.Parse(Console.ReadLine());
+                Console.Clear();
+                //Con un switch y los casos realizamos el registro o el login.
+                switch (opcion)
+                {
+                    //En el primer caso al ingresar el 1 se procede a crear la cuenta.
+                    case 1:
+                        Console.WriteLine("**** Creación de una nueva Cuenta ****");
+                        //Registro user1 = new Registro();
+                        Console.WriteLine("\nIngresa tu Nombre y apellido:");
+                        user1.nombre = Console.ReadLine();
+                        Console.WriteLine("\nIngresa tu edad:");
+                        user1.edad = int.Parse(Console.ReadLine());
+                        Console.WriteLine("\nIngresa tu username:");
+                        user1.username = Console.ReadLine();
+                        Console.WriteLine("\nIngresa tu correo electronico:");
+                        user1.email = Console.ReadLine();
+                        Console.WriteLine("\nIngresa tu contraseña:");
+                        user1.contraseña = Console.ReadLine();
+                        
+                        if (user1.edad >= 16)
+                        {
+                            Console.Clear();
+                            Console.WriteLine("**** LISTO! ****");
+                            Console.WriteLine("Te has registrado correctamente!");
+                            Console.WriteLine("Ahora debes Iniciar Sesión");
+                        }
+                        else
+                        {
+                            Console.Clear();
+                            Console.WriteLine("Tienes que ser mayor de 15 años para crear una cuenta");
+                            Console.WriteLine("Presiona 1 para salir");
+                            neg1 = int.Parse(Console.ReadLine());
+                        }                                              
+                        break;
+                    //En el segundo caso al ingresar el 2 se procede al login de la cuenta.
+                    case 2:
+                        Console.WriteLine("Procede a Iniciar sesión");
+                        Console.WriteLine("Presiona una Tecla para continuar");
+                        break;
+                    //Declaramos un mensaje de error al utilizar mal el menú inicial, mediante el default del switch.
+                    default:
+                        Console.WriteLine("¡ERROR! \n¡Ingrese una opción correcta! .. presiona una tecla para continuar");
+                        break;
+                }
+                Console.ReadKey();
+                Console.Clear();
+            } while (!((opcion == 1) || (opcion == 2)));     
+            if (neg1 == 1)
+            {
+                Console.WriteLine(" Hasta Pronto SE CAMBIAAAAA");
+                Console.WriteLine("Te esperamos cuando tengas edad suficiente :D");
+            }
+            else
+            {
+                Console.WriteLine("**** INICIAR SESIÓN ****");                
+                Console.WriteLine("\n> Usuario");
+                login1.username = Console.ReadLine();
+                Console.WriteLine("\n> Contraseña");
+                login1.contraseña = Console.ReadLine();
+                do
+                {
+                    Console.Clear();
+                    Console.WriteLine("Bienvenid@ " + user1.nombre + ". Tenemos todas las piezas de arte que deseas y seueñas.");
+                    Console.WriteLine("  1. Catálogo de artículos");
+                    Console.WriteLine("  2. Carrito de compras");
+                    Console.WriteLine("  3. Tu perfil");
+                    Console.WriteLine("  4. Más opciones");
+                    Console.WriteLine("  5. Salir");
+                    opcion = int.Parse(Console.ReadLine());
+                    Console.Clear();
+                    switch (opcion)
+                    {
+                        case 1:
+                            Console.WriteLine("**** CATÁLOGO DE ARTICULOS ****");
+                            do
+                            {
+                                Console.WriteLine("\n**** Prodcuto 1 ****");
+                                articulo1.nombre = "Poster de The Batman 2022";
+                                articulo1.id = "P224";
+                                articulo1.categoria = "Poster";
+                                articulo1.descripcion = "Poster de la pelicula The Batman de 2022, pintado a mano en oleo.";
+                                articulo1.precio = 24.99;
+                                articulo1.stock = 34;
+                                articulo1.Mostrar();
+                                Console.WriteLine("\n**** Prodcuto 2 ****");
+                                articulo2.nombre = "Cuadro paisaje urbano de Barcelona por la noche.";
+                                articulo2.id = "Q312";
+                                articulo2.categoria = "Cuadro";
+                                articulo2.descripcion = "Cuadro en lienzo que refleja la magnficiencia de la ciudad de Barcelona en el anochecer";
+                                articulo2.precio = 49.99;
+                                articulo2.stock = 10;
+                                articulo2.Mostrar();
+                                Console.WriteLine("\nPara añadir el producto al carrito");
+                                Console.WriteLine("Presiona 1 para el primer producto o 2 para el segundo.");
+                                opcion1 = int.Parse(Console.ReadLine());
+                                switch (opcion1)
+                                {
+                                    case 1:
 
-        }
-        public override string ToString()
-        {
-            return string.Format("Nombre: " + nombre
-                + "\nPuesto: " + puesto
-                + "\nEdad: " + edad
-                + "\nSueldo:" + sueldo);
+                                        break;
 
-        } 
-        //Aqui van otros metodos propios de empleado
-        //- AsignarHorario
-        //- ProyectoActual
+                                    case 2:
 
-        //Aqui podemos ver metodos que no es responsabilidad del empleado
-        //Tenemos dos razones para cambiar la clase
-        //cuando cambia algo de empleado y cambia algo relacionado con los impuestos esta ultima no tiene
-        //nada que ver con los empleados
-        public double CalcularImpuesto()
-        {
-            return sueldo * 0.35;
-        }
-        public void PagarImpuesto()
-        {
-            Double imp = CalcularImpuesto();
-            Console.WriteLine("Se pago {0} en impuestos por parte de {1}", imp, nombre);
+                                        break;
+
+                                }
+
+                            } while (true);
+
+
+
+
+                    }
+
+                } while (true);
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }      
         }
     }
-
 }
